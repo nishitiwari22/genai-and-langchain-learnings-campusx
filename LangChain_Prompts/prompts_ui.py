@@ -11,7 +11,7 @@ template = load_prompt(template_path)
 
 load_dotenv()
 # model = ChatOpenAI()
-model = ChatOpenAI(api_key="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")
+model = ChatOpenAI(api_key="OPEN AI_API_KEY", temperature=0.7)
 
 
 st.header('Reasearch Tool')
